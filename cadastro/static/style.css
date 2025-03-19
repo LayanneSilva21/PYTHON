@@ -1,0 +1,18 @@
+body {
+    font-family: 'segoe ui', Geneva, Verdana, sans-serif, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+fieldset {
+    margin-bottom: 20px;
+}
+.submit{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}

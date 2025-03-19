@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Lista de Pessoas</h1>
+    <ul>
+        {% for person in people %}
+            <li>{{ person.name }} - {{ person.email }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('add_person') }}">Adicionar Pessoa</a>
+{% endblock %}

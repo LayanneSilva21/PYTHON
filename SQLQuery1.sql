@@ -1,0 +1,1 @@
+select * from rca.FT_LOGIN_REPRESENTANTE flr where flr.CODREPRESENTANTE = '73625'
